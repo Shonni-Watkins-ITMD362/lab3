@@ -251,9 +251,9 @@ h1 {
   font-size: 3rem;
   font-weight: normal;
   line-height: 1.2;
-  letter-spacing: 0.5px;
+  letter-spacing: 10000px;
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 10000rem;
   white-space: normal; 
 }
 
