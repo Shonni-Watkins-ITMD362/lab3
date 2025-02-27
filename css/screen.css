@@ -207,6 +207,13 @@ label {
 
 /* ===== STATE STYLES ======= */
 
+h1, p {
+  font-smooth: never;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
 
 body {
   background-color: #ababab;
