@@ -221,6 +221,16 @@ body {
   min-height: 100vh;
 }
 
+h1 {
+  font-size: 3rem;
+  margin-bottom: .5rem;
+}
+
+p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
 #content {
   color: #424242;
   font-size: 1.5rem;
@@ -236,5 +246,4 @@ form {
   max-width: 400px;
   width: 90%;
 }
-
 
