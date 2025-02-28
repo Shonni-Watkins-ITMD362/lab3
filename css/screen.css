@@ -208,22 +208,11 @@ label {
 /* ===== STATE STYLES ======= */
 
 
-
-
-
-
-
-
-
-
-
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 
 body {
   background-color: #ababab;
@@ -237,7 +226,6 @@ body {
   padding: 1rem;
 }
 
-
 #content {
   display: flex;
   flex-direction: column;
@@ -247,7 +235,6 @@ body {
   max-width: 400px;
 }
 
-
 form {
   display: flex;
   flex-direction: column;
@@ -255,10 +242,9 @@ form {
   background-color: #e6e6e6;
   padding: 2rem;
   border-radius: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
   width: 100%;
 }
-
 
 h1 {
   font-size: 2rem;
@@ -271,7 +257,6 @@ p {
   line-height: 1.6;
   margin-bottom: 1.5rem;
 }
-
 
 label {
   display: block;
@@ -295,7 +280,6 @@ input[type="checkbox"] {
   margin-right: 0.5rem;
 }
 
-
 input[type="submit"] {
   background-color: #757575;
   color: #fff;
@@ -312,11 +296,9 @@ input[type="submit"]:hover {
   background-color: #505050;
 }
 
-
 input:focus {
   outline: 2px solid #424242;
 }
-
 
 @media (max-width: 600px) {
   form {
